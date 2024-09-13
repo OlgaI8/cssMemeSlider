@@ -9,30 +9,40 @@
 </head>
 
 <body>
-  <main class="slider__wrapper">
-    <div class="slider__items">
-      <div class="slider__item">
-        <img src="images/1.jpg" alt="meme">
+  <main class="slider__wrapper wrapper">
+    <input type="radio" name="btn" id="btn-1" checked>
+    <input type="radio" name="btn" id="btn-2">
+    <input type="radio" name="btn" id="btn-3">
+    <input type="radio" name="btn" id="btn-4">
+    <div class="slider">
+      <div class="slider__items">
+        <img class="slider__item" src="images/1.png" alt="meme">
+        <img class="slider__item" src="images/2.png" alt="meme">
+        <img class="slider__item" src="images/3.png" alt="meme">
+        <img class="slider__item" src="images/4.png" alt="meme">
       </div>
-      <div class="slider__item">
-        <img src="images/2.png" alt="meme">
+      <div class="slider__nav">
+        <div class="slider__descriptions">
+          <p class="slider__description">Врачи vs Программисты</p>
+          <p class="slider__description">Код с ошибочкой</p>
+          <p class="slider__description">Лук программиста</p>
+          <p class="slider__description">А это мы&#41;&#41;&#41;</p>
+        </div>
+        <div class="slider__nav-btns">
+          <label for="btn-1" class="slider__nav-btn">
+            <span></span>
+          </label>
+          <label for="btn-2" class="slider__nav-btn">
+            <span></span>
+          </label>
+          <label for="btn-3" class="slider__nav-btn">
+            <span></span>
+          </label>
+          <label for="btn-4" class="slider__nav-btn">
+            <span></span>
+          </label>
+        </div>
       </div>
-      <div class="slider__item">
-        <img src="images/3.jpeg" alt="meme">
-      </div>
-      <div class="slider__item">
-        <img src="images/4.jpg" alt="meme">
-      </div>
-    </div>
-    <div class="slider__nav">
-      <input type="radio" name="btn" id="btn-1" checked>
-      <input type="radio" name="btn" id="btn-2">
-      <input type="radio" name="btn" id="btn-3">
-      <input type="radio" name="btn" id="btn-4">
-      <label for="btn-1" class="slider__nav-item"></label>
-      <label for="btn-2" class="slider__nav-item"></label>
-      <label for="btn-3" class="slider__nav-item"></label>
-      <label for="btn-4" class="slider__nav-item"></label>
     </div>
   </main>
 </body>
